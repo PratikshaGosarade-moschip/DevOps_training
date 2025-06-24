@@ -1,0 +1,21 @@
+**Project title**
+
+	-Simple application using python flask
+
+
+**Folder Structure**
+
+Python-flask-app/
+		-app.py
+		-Dockerfile
+		-README
+		-requirements
+
+
+**Docker Commands**
+ 
+docker login
+docker build -t pratikshagosarade/python-flask-app .
+docker images
+docker push pratikshagosarade/python-flask-app
+docker run -d -p 5000:5000 pratikshagosarade/python-flask-app
